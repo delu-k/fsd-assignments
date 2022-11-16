@@ -1,0 +1,16 @@
+.module {
+  width: 300px;
+  height: 300px;
+  border: 1px solid white;
+  background-image: url(images/background.jpg);
+  background-size: 1000px;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(#666, #222);
+}/*# sourceMappingURL=style.css.map */

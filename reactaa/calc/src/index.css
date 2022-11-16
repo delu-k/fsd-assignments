@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	border-radius: 0px;
+	box-sizing: border-box;
+	font-size: 110%;
+}
+
+#root{
+	text-align:center;
+}
+
+.calculator-title{
+	font-size:30px;
+	background: #fff;
+	width: 400px;
+	padding: 10px 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	border: 2px solid black;
+	color: #4CAF50;
+}
+
+.mainCalc{
+	margin:0px;
+	padding:0px;
+	border-radius: 0px;
+	box-sizing: border-box;
+}
+
+.screen-row input{
+  width: 400px;
+  background: #ddd;
+  border: 0px;
+  color: #222;
+  padding: 10px;
+  text-align: right;
+}
+
+input[type="button"]{
+  width: 100px;
+  background: #4c74af;
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transition: 0.2s all;
+}
+  
+input[type="button"]:active{
+  /* background: #ccc; */
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

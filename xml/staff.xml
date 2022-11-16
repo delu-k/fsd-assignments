@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stafflist SYSTEM "D:\projects\uni\fsd\xml\staff.dtd">
+<?xml-stylesheet type=text/xml href="D:\projects\uni\fsd\xml\staff.xsl"?>
+<stafflist>
+    <staff bno="B001">
+        <stno> 1 </stno>
+        <name>
+            <fnm> Ayesha</fnm>
+            <lnm> kataria</lnm>
+        </name>
+        <position> manager</position>
+        <sal>30000</sal>
+    </staff>
+    <staff bno="B001">
+        <stno>2</stno>
+        <name>
+            <fnm> Smruti</fnm>
+            <lnm> Shah</lnm>
+        </name>
+        <position> manager</position>
+        <sal>50000</sal>
+    </staff>
+    <staff bno="B001">
+        <stno>3</stno>
+        <name>
+            <fnm> Kewal</fnm>
+            <lnm> Katkar</lnm>
+        </name>
+        <position> amanager</position>
+        <sal>20000</sal>
+    </staff>
+    <staff bno="B001">
+        <stno>4</stno>
+        <name>
+            <fnm> Riya</fnm>
+            <lnm> Sheth</lnm>
+        </name>
+        <position> manager</position>
+        <sal>30000</sal>
+    </staff>
+    <staff bno="B002">
+        <stno>5</stno>
+        <name>
+            <fnm> Dewen</fnm>
+            <lnm> Chaore</lnm>
+        </name>
+        <position> manager</position>
+        <sal>18000</sal>
+    </staff>
+    <staff bno="B002">
+        <stno>6</stno>
+        <name>
+            <fnm> Vaibhav</fnm>
+            <lnm> Katte</lnm>
+        </name>
+        <position> Assistant manager</position>
+        <sal>120000</sal>
+    </staff>
+    <staff bno="B002">
+        <stno>7</stno>
+        <name>
+            <fnm>adi</fnm>
+            <lnm>tya</lnm>
+        </name>
+        <position>idk</position>
+        <sal>100000</sal>
+    </staff>
+    <branch>
+        <bno>B001</bno>
+        <city> pune</city>
+        <bnm> Swargate</bnm>
+    </branch>
+    <branch>
+        <bno>B002</bno>
+        <city>Mumbai</city>
+        <bnm> Nariman Point</bnm>
+    </branch>
+    <branch>
+        <bno>B003</bno>
+        <city> pune</city>
+        <bnm> Kothrud</bnm>
+    </branch>
+</stafflist>

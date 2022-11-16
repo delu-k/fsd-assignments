@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JWST</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link name="stylesheet" type="text/css" href="jwst.css"> -->
+
+    <style>
+      body {
+        background-color: rgb(43, 54, 75);
+        color: white;
+        font-family: "Dosis", sans-serif;
+        font-size: 1.2rem;
+      }
+
+      p {
+        padding: 10px 0px 0px 0px;
+      }
+
+      .page-header {
+        margin: 50px 0px 10px 0px;
+      }
+    </style>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" tabindex="0" data-offset="50">
+
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background: url(images/background.jpg);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/Nasa.svg" alt="Avatar Logo" style="width:50px;" class="rounded-pill">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#section0">Images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">Carina Nebula</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">Stephan's Quintet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-3 pt-5">
+      <div class="mt-4 p-5 text-white rounded" style="background: url(images/background.jpg);">
+        <h1>James Webb Space Telescope</h1> 
+        <p>First Images from the James Webb Space Telescope</p> 
+      </div>
+      <p>
+        The dawn of a new era in astronomy has begun as the world gets its first look at the full capabilities of NASA’s James Webb Space Telescope,
+        a partnership with ESA (European Space Agency) and CSA (Canadian Space Agency).
+        The telescope’s first full-color images and spectroscopic data were released during a televised broadcast
+        at 10:30 a.m. EDT (14:30 UTC) on Tuesday, July 12, 2022, from NASA’s Goddard Space Flight Center in Greenbelt, Maryland.
+        These listed targets below represent the first wave of full-color scientific images and spectra the observatory has gathered,
+        and the official beginning of Webb’s general science operations. They were selected by an international committee of representatives
+        from NASA, ESA, CSA, and the Space Telescope Science Institute.
+      </p>
+    </div>
+
+    <div class="container" id="section0">
+      <h2>Images captured by the JWST</h2>
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/jwst1.jpg" alt="Carina Nebula" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+              <h3>Carina Nebula</h3>
+              <p>The Cosmic Cliffs</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/jwst2.jpg" alt="Stephan’s Quintet" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+              <h3>Stephan’s Quintet</h3>
+              <p>Group of five galaxies</p>
+            </div> 
+          </div>
+          <div class="carousel-item">
+            <img src="images/jwst3.jpg" alt="Southern Ring Nebula" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+              <h3>Southern Ring Nebula</h3>
+              <p>Rings of gas and dust</p>
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <div id="section1" class="container">
+      <div class="page-header">
+      <h1>Carina Nebula</h1>
+      </div>
+      <img src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg?itok=9hyNVMwe" class="rounded" alt="Carina Nebula" width="500">
+      <p></p>
+      <p>
+      This landscape of “mountains” and “valleys” speckled with glittering stars is actually the edge of a nearby, young, star-forming region
+      called NGC 3324 in the Carina Nebula. Captured in infrared light by NASA’s new James Webb Space Telescope, this image reveals for the
+      first time previously invisible areas of star birth.
+      </p>
+      <p>
+      Called the Cosmic Cliffs, Webb’s seemingly three-dimensional picture looks like craggy mountains on a moonlit evening.
+      In reality, it is the edge of the giant, gaseous cavity within NGC 3324, and the tallest “peaks” in this image are about 7 light-years high.
+      The cavernous area has been carved from the nebula by the intense ultraviolet radiation and stellar winds from extremely massive, hot, young
+      stars located in the center of the bubble, above the area shown in this image.
+      </p>
+    </div>
+
+    <div id="section2" class="container">
+      <div class="page-header">
+      <h1>Stephan's Quintet</h1>
+      </div>
+      <img src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_galaxies_stephans_quintet_sq_nircam_miri_final-1280.jpg?itok=HyMw6H_h" class="rounded" alt="Stephan's Quintlet" width="500">
+      <p></p>
+      <p>
+      Stephan’s Quintet, a visual grouping of five galaxies, is best known for being prominently featured in the holiday classic film,
+      “It’s a Wonderful Life.” Today, NASA’s James Webb Space Telescope reveals Stephan’s Quintet in a new light.
+      This enormous mosaic is Webb’s largest image to date, covering about one-fifth of the Moon’s diameter.
+      It contains over 150 million pixels and is constructed from almost 1,000 separate image files.
+      The information from Webb provides new insights into how galactic interactions may have driven galaxy evolution in the early universe.
+      </p>
+      <p>
+      With its powerful, infrared vision and extremely high spatial resolution, Webb shows never-before-seen details in this galaxy group.
+      Sparkling clusters of millions of young stars and starburst regions of fresh star birth grace the image.
+      Sweeping tails of gas, dust and stars are being pulled from several of the galaxies due to gravitational interactions.
+      Most dramatically, Webb captures huge shock waves as one of the galaxies, NGC 7318B, smashes through the cluster.
+      </p>
+    </div>
+
+    <!-- form -->
+    <div class="container mt-3" id="section3">
+      <div class="page-header">
+        <h1>Sign up to get latest images as they are captured</h1>
+      </div>
+      <form action="">
+        <div class="form-floating mb-3 mt-3" style="color:black;">
+          <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
+          <label class="form-check-label">Receive additional emails</label>
+        </div> 
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <br>
+    <!-- footer -->
+    <div class="m-2" style="font-size: 1rem;">
+      <footer
+              class="text-center text-lg-start text-white"
+              style="background-color: #1c2331"
+              >
+        <section
+                class="d-flex justify-content-between p-4"
+                style="background-color: #6351ce"
+                >
+          <div class="me-5">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <div>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </section>
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">More about JWST</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                  The James Webb Space Telescope is a space telescope designed primarily to conduct infrared astronomy.
+                  As the largest optical telescope in space, its high infrared resolution and sensitivity allow it to view objects too early,
+                  distant, or faint for the Hubble Space Telescope.
+                </p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">Links</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                  <a href="https://www.nasa.gov/" class="text-white">NASA</a>
+                </p>
+                <p>
+                  <a href="https://www.nasa.gov/webbfirstimages" class="text-white">JWST</a>
+                </p>
+                <p>
+                  <a href="https://www.nasa.gov/planetarydefense/dart/dart-news" class="text-white">DART</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Help</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+
+  </body>
+</html>
